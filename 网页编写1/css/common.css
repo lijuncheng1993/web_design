@@ -1,0 +1,137 @@
+/*top start*/
+.top{
+    width: 2300px;
+    height: 130px;
+    background-color: white;
+
+
+}
+.top .menu{
+    width: 95%;
+    height: 100%;
+    background-color: white;
+    /*margin: ;*/
+}
+/*logo.image*/
+.top .menu .logo{
+    height: 100%;
+    width: 900px;
+    background:url("../图片/图片1.jpg") no-repeat;
+    margin-left: 3%;
+    float: left;
+    /*background-image:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567806594995&di=76535186825db6ca18dcfdc5c0c237ac&imgtype=0&src=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2F912bd2352b95ab0cdde5ff2788730595e6e5a777.jpg')*/
+}
+/*菜单栏*/
+.top .menu .menu_top li{
+    /*text-align: center;*/
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    line-height: 30px;
+
+    box-sizing: border-box; /*不能超出盒子高度*/
+}
+/*菜单下划线*/
+.top .menu .menu_top li{
+    border-bottom: 3px solid red;
+    background: white;
+}
+
+/*改标签样式*/
+.top .menu .menu_top li a{
+    color: black;
+    display: inline-block;
+    height: 10px;
+    width: 100px;
+    text-align: center;
+}
+/*注册/登陆*/
+.top .menu .reg-log{
+    float: right;
+    margin-top: 50px;
+    line-height: 30px;
+}
+.top .menu .reg-log i{
+    color: black;
+    font-size: 20px;
+}
+.top .menu .reg-log a{
+    color: black;
+
+}
+
+/*middle start*/
+.middle{
+    width: 2300px;
+    height: 800px;
+    background-color: white;
+
+}
+.middle .content{
+    width: 2000px;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;    /*居中*/
+    /*margin-top: 0 auto;*/
+}
+
+/*bottom start*/
+.bottom_top{
+    width: 2300px;
+    height: 120px;
+    background-color: white;
+
+}
+.bottom_top .bot_top{
+    width: 95%;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+
+}
+
+/*logo.image*/
+.bottom_top .bot_top .logo{
+    height: 100%;
+    width: 300px;
+    background:url("../图片/图片2.jpg") no-repeat;  /*0 6px调节位置*/
+    background-size: 250px;
+    /*background-image:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567806594995&di=76535186825db6ca18dcfdc5c0c237ac&imgtype=0&src=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2F912bd2352b95ab0cdde5ff2788730595e6e5a777.jpg')*/
+    float: left;
+}
+/*菜单栏*/
+.bottom_top .bot_top .top-content .link a{
+    color: black;
+}
+.bottom_top .bot_top p{
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.bottom_top .bot_top .bottom-content{
+    color: darkgreen;
+    margin-right: 175px;
+}
+
+
+
+/*bottom end*/
+.bottom_end{
+    width: 2300px;
+    height: 100px;
+    background-color: gray;
+
+}
+.bottom_end .bot_end{
+    width: 95%;
+    height: 100%;
+    background-color: gray;
+    margin: auto;
+}
+.bottom_end .bot_end p{
+    color: black;
+    text-align: center;
+    line-height: 100px;
+
+}

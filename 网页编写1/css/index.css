@@ -1,0 +1,526 @@
+/*left-con start*/
+.middle .content .left-con {
+    width: 1600px;
+    height: 800px;
+    background-color: white;
+    float: left;
+}
+
+/*banner start*/
+.middle .content .left-con .banner {
+    width: 1600px;
+    height: 120px;
+    background-color: pink;
+    margin-top: 20px;
+
+}
+
+
+/*图片*/
+.middle .content .left-con .banner .pic img {
+    width: 1600px;
+    height: 120px;
+    position: absolute;
+    display: none;
+}
+
+/*修改小圆点对应图片*/
+.middle .content .left-con .banner .pic img.show {
+    display: block;
+    /*display: inline-block;*/
+}
+
+.middle .content .left-con .banner .btn li.active {
+    background: white;
+}
+
+/*鼠标事件*/
+.middle .content .left-con .banner .btn li:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+/*小圆点*/
+.middle .content .left-con .banner .btn li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 8px;
+
+}
+
+/*小圆点居中*/
+.middle .content .left-con .banner .btn {
+    /*height: 20px;*/
+    /*width: 130px;*/
+    /*background-color: darkgreen;*/
+    position: absolute;
+    /*left: 50%;*/
+    margin-left: 700px;
+    margin-top: 95px;
+}
+
+/*箭头*/
+/*左箭头*/
+.middle .content .left-con .banner .tab .tab-left {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+/*右箭头*/
+.middle .content .left-con .banner .tab .tab-right {
+    position: absolute;
+    margin-left: 1550px;
+    margin-top: 30px;
+}
+
+.middle .content .left-con .banner:hover .tab li {
+    display: block;
+}
+
+/*调试箭头*/
+.middle .content .left-con .banner .tab li {
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    display: none;
+
+}
+
+/*banner end*/
+/*news start  */
+.middle .content .left-con .news {
+    background-color: white;
+
+    /*弹性布局*/
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    /*下划线*/
+    border-bottom: 1px solid gray;
+}
+
+.middle .content .left-con .news li {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    /*margin-left: 5px;*/
+    /*超出隐藏*/
+    overflow: hidden;
+
+}
+
+.middle .content .left-con .news li img {
+    width: 100%;
+    height: 100%;
+    transition: all 200ms;
+}
+
+/*文字*/
+.middle .content .left-con .news li p {
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    /*margin: 0 auto;*/
+    left: 0;
+    color: white;
+}
+
+.middle .content .left-con .news li p span {
+    margin: auto;
+    font-size: 10px;
+    cursor: pointer;
+    /*display: none;*/
+
+}
+
+/*鼠标进入*/
+.middle .content .left-con .news li:hover img {
+    transform: scale(1.2);
+}
+
+/*news-tag start*/
+.middle .content .left-con .news-tag {
+    padding: 20px;
+}
+
+/*.middle .content .left-con .news-tag .tittle li p{*/
+.middle .content .left-con .news-tag .title li {
+    color: gray;
+    float: left;
+    padding: 0 10px;
+    line-height: 20px;
+}
+
+/*标签坐标*/
+li.active {
+    /*li.active p{    */
+    border-left: 3px solid black;
+    /*position: absolute;*/
+}
+
+.middle .content .left-con .news-tag .title li:hover {
+    /*.middle .content .left-con .news-tag .tittle li p:hover{   */
+    text-shadow: 1px 1px 2px;
+}
+
+/*new-content start*/
+.middle .content .left-con .news-tag .news-content {
+    width: 100%;
+    height: 360px;
+    background-color: white;
+    position: relative;
+}
+/*--------------------*/
+.middle .content .left-con .news-tag .news-content .show .aa{
+    /*line-height: 800px;*/
+    border-bottom: 3px solid gray;
+    padding: 75px;
+    display: block;
+}
+
+/*文本内容*/
+.middle .content .left-con .news-tag .news-content li {
+    position: absolute;
+    display: none;
+
+}
+
+.middle .content .left-con .news-tag .news-content li.show {
+    display: block;
+
+}
+
+/*新闻列表*/
+.middle .content .left-con .news-tag .news-content li .pic {
+    float: left;
+
+}
+
+.middle .content .left-con .news-tag .news-content li img {
+    padding: 10px;
+    height: 130px;
+    width: 130px;
+}
+
+/*文字*/
+.middle .content .left-con .news-tag .news-content li .text {
+    height: 130px;
+    width: 1300px;
+    float: right;
+    /*background-color: red;*/
+    margin-left: 50px;
+}
+
+/*标题样式*/
+.middle .content .left-con .news-tag .news-content li .text h4 {
+    font-size: 25px;
+    line-height: 35px;
+    height: 40%;
+}
+
+
+
+.middle .content .left-con .news-tag .news-content li .text p {
+    color: gray;
+    line-height: 22px;
+}
+
+.middle .content .left-con .news-tag .news-content li .text .news-other {
+    margin-top: 32px;
+}
+
+.middle .content .left-con .news-tag .news-content li .text .news-other .news-type {
+    float: left;
+    color: gray;
+}
+
+.middle .content .left-con .news-tag .news-content li .text .news-other .news-time, .news-author {
+    float: right;
+    color: gray;
+    margin-right: 15px;
+}
+
+.middle .content .left-con .news-tag .news-content li .news-list {
+    margin-top: 10px;
+}
+
+.middle .content .left-con .news-tag .news-content li.show {
+    border-bottom: 3px solid gray;
+    padding: 5px 0;
+    display: block;
+}
+
+.middle .content .left-con .more {
+    display: block;
+    width: 200px;
+    height: 60px;
+    background-color: deepskyblue;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+/*new-content end*/
+
+/*news-tag end*/
+
+/*news end*/
+
+/*left-con end*/
+
+/*right-con start*/
+.middle .content .right-con {
+    width: 300px;
+    height: 770px;
+    background-color: white;
+    border: 3px solid skyblue;
+    float: right;
+}
+
+/*offline start*/
+/*.middle .content .right-con{*/
+    /*border-bottom: 3px solid red;*/
+    /*border-radius: 20px;*/
+    /*顶部*/
+    /*margin-top: 28px;*/
+/*}*/
+.middle .content .right-con .offline-class h3{
+    margin-top: 0;
+    font-size: 20px;
+    /*行间距*/
+    line-height: 30px;
+    /*内间距  上下  左右*/
+    padding: 0 20px;
+}
+.middle .content .right-con .offline-class h3 a{
+    color: green;
+    font-size: 15px;
+    float: right;
+}
+
+.middle .content .right-con .offline-class .img img{
+    width: 300px;
+    height: 300px;
+    /*margin-left: 60px;*/
+    /*margin: 0 auto;*/
+
+}
+.middle .content .right-con .offline-class .img {
+    width: 300px;
+    height: 300px;
+    /*margin-left: 60px;*/
+    margin: 0 auto;
+
+    /*文字放图片中间*/
+    position: relative;
+}
+.middle .content .right-con .offline-class .img p{
+    width: 300px;
+    height: 15%;
+    display: block;
+    background-color: rgba(0,0,0,0.4);
+    /*文字放图片中间*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    line-height: 40px;
+    text-indent: 1em;
+}
+
+.middle .content .right-con .offline-class .status{
+    width: 400px;
+    border-bottom: 1px solid gray;
+    /*间距*/
+    padding: 0 20px;
+}
+
+.middle .content .right-con .offline-class .status li{
+    height: 40px;
+    line-height: 40px;
+}
+.middle .content .right-con .offline-class .status .one{
+    border: 1px solid skyblue;
+    color: pink;
+    margin-right: 20px;
+
+}
+
+.middle .content .right-con .offline-class .status .two{
+    border: 1px solid skyblue;
+    color: pink;
+    margin-right: 20px;
+
+}
+
+/*关注*/
+.middle .content .right-con .attention-me{
+    margin-top: 5px;
+    /*background-color: gray;*/
+}
+.middle .content .right-con .aa{
+    height: 10px;
+    border-bottom: 1px solid gray;
+    padding: 75px;
+    display: block;
+}
+.middle .content .right-con .aaa{
+    height: 50px;
+    border-bottom: 1px solid red;
+    padding: 75px;
+    display: block;
+}
+
+.middle .content .right-con .attention-me h3{
+    padding: 0 20px;
+    line-height: 10px;
+    font-size: 20px;
+}
+
+.middle .content .right-con .attention-me .info{
+    line-height: 50px;
+    padding: 0 10px;
+    position: absolute;
+    /*background-color: greenyellow;*/
+    width: 280px;
+
+
+}
+
+.middle .content .right-con .attention-me .info li i{
+    /*color: mediumseagreen;*/
+    font-size: 10px;
+
+}
+
+.middle .content .right-con .attention-me .atte{
+    /*position: absolute;*/
+    float: right;
+    height: 130px;
+    width: 130px;
+    background: url("../../网页编写/图片/图片30.png") no-repeat center;
+
+    /*filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";*/
+    /*-moz-background-size:100% 100%;*/
+    /*图片自适应*/
+    background-size:100% 100%;
+    margin-left: 11%;
+
+
+}
+.middle .content .right-con .attention-me .atte p{
+    /*line-height: 30px;*/
+    font-size: 15px;
+    margin-top: 135px;
+    text-align: center;
+    color: mediumseagreen;
+
+}
+
+
+/*热门推荐*/
+.middle .content .right-con .hot-recommend{
+    background-color: white;
+    margin-top: 10px;
+    /*border-top: 1px solid gray;*/
+    width: 300px;
+    height: 150px;
+}
+
+.middle .content .right-con .hot-recommend h3{
+    padding: 8px 20px;
+    line-height: 10px;
+    font-size: 20px;
+}
+.middle .content .right-con .hot-recommend .hot-news li{
+    /*border-bottom: 1px solid gray;*/
+    /*margin-top: 10px;*/
+    padding: 0 20px;
+    /*background-color: yellow;*/
+}
+.middle .content .right-con .hot-recommend .hot-news li .news-content p{
+    /*margin-top: 5px;*/
+    /*width: 150px;*/
+    font-size: 3px;
+    /*background-color: red;*/
+    color: mediumseagreen;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+
+}
+
+.middle .content .right-con .hot-recommend .hot-news li .other{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.middle .content .right-con .hot-recommend .hot-news li .other .hot{
+    color: green;
+    float: left;
+}
+
+.middle .content .right-con .hot-recommend .hot-news li .other .date{
+    color: green;
+    float: right;
+}
+
+.middle .content .right-con .hot-recommend  .news-content{
+    float: left;
+}
+
+.middle .content .right-con .hot-recommend  li .pic{
+    float: right;
+    width: 80px;
+    height: 80px;
+    /*background-color: red;*/
+    /*display: block;*/
+    /*padding: -30px 0;*/
+}
+
+.middle .content .right-con .hot-recommend  li .pic img{
+    width: 90px;
+    height: 90px;
+
+}
+
+/*.middle .content .right-con .attention-me .atte .img p{*/
+    /*width: 300px;*/
+    /*height: 15%;*/
+    /*display: block;*/
+    /*background-color: rgba(0,0,0,0.4);*/
+    /*!*文字放图片中间*!*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*color: white;*/
+    /*line-height: 40px;*/
+    /*text-indent: 1em;*/
+/*}*/
+
+/*.middle .content .right-con .attention-me  .atte .status{*/
+    /*width: 400px;*/
+    /*border-bottom: 1px solid gray;*/
+    /*!*间距*!*/
+    /*padding: 0 20px;*/
+/*}*/
+
+
+
+/*offline end*/
+
+
+/*right-con end*/
